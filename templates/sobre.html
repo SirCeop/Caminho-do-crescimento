@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="sobre-mim-section">
+    <h2 style="text-transform: uppercase; font-family: 'Roboto', sans-serif;">Bem-vindo ao Meu Blog</h2>
+    <div class="intro-text">
+      <div class="image-container">
+        <img class="profile-image" src="{{ url_for('static', filename='images/eduardo.jpg') }}" alt="Minha Foto">
+      </div>
+      <div class="text-container">
+        <p class="large-text">Olá, eu sou [Seu Nome], e este é o meu espaço Tech Pro. Sou apaixonado por tecnologia, programação e inovação.</p>
+        <p class="small-text">Aqui, compartilho minhas experiências, insights e projetos relacionados ao vasto universo da tecnologia. Seja bem-vindo e explore comigo as últimas novidades, dicas e truques do mundo tech!</p>
+      </div>
+    </div>
+    <p class="large-text" style="font-family: 'Roboto', sans-serif;">Me Acompanhe</p>
+    <p class="small-text">Fique por dentro das últimas atualizações e novidades do meu blog. Siga-me nas redes sociais e mantenha-se informado sobre o mundo da tecnologia.</p>
+  </div>
+{% endblock %}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>CEOP Tech Pro: Explorando Habilidades e Inovação</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="/">CEOP Tech Pro</a></h1>
+            <p>Explorando Habilidades e Inovação</p>
+            <nav>
+                <ul>
+                            <li><a href="/">Início</a></li>
+                            <li><a href="/introducao">Introdução</a></li>
+                            <li><a href="/sobre">Sobre</a></li>
+                            <li><a href="/habilidades">Habilidades</a></li>
+            
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        {% block content %}{% endblock %}
+    </main>
+    <footer class="footer-background">
+        <div class="container">
+            <p>&copy; 2024 CEOP - Blog Pythonista</p>
+            <a href="https://github.com/SirCeop/inicio" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

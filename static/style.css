@@ -1,0 +1,152 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(to right, #333, #555);
+    color: white;
+    padding: 1em 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffc107;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.post {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.post h2 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.about {
+    margin-top: 20px;
+}
+
+/* Estilo para a página de início */
+.intro-section {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #00bcd4;
+    color: white;
+}
+
+.intro-section h2 {
+    font-size: 2.5em;
+}
+
+.intro-section p {
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+.skills-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.skills-section h3 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.skill-icons {
+    font-size: 3em;
+    color: #4e6bff;
+    margin: 10px;
+}
+
+/* Rodapé */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, #333, #555);
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.large-text {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.small-text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    float: left;
+    width: 60%; /* Ajuste a largura conforme necessário */
+    margin-right: 20px;
+}
+
+.sobre-mim-section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+}
